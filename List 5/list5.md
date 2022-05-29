@@ -46,11 +46,11 @@
 
 #### 3 - Para A = V, B = V, e C = F, qual o resultado da aaliação das seguintes expressões:
 
-**a)** (A e B) ou (A ou B)
+**a)** (A e B) ou (A ou B)  
 **a)** V
 
-**b)** (A ou B) e (A e C)
+**b)** (A ou B) e (A e C)  
 **b)** F
 
-**c)** A ou C e B ou A e não B
+**c)** A ou C e B ou A e não B  
 **c)** V
