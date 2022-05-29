@@ -2,16 +2,16 @@
 
 #### 1 - Baseado nos conceitos de tabela verdade e operadores, quais são os resultados (V ou F) de A, B, C, D:
 
-**A** = 10/2 + 12/3 > (4+5+2) * 2
+**A** = 10/2 + 12/3 > (4+5+2) * 2  
 **A** = F
 
-**B** = (4/(2+2)) + 5 <= (10) E (A)
+**B** = (4/(2+2)) + 5 <= (10) E (A)  
 **B** = F
 
-**C** = ((4+2) * 2 == 8) OU (B)
+**C** = ((4+2) * 2 == 8) OU (B)  
 **C** = F
 
-**D** = (A) OU (B) E (C)
+**D** = (A) OU (B) E (C)  
 **D** = F
 
 #### 2 - Baseado nos conceitos de tabela verdade, resolva:
@@ -31,7 +31,7 @@
 | A | B | C | A e B e C |
 | --- | --- | --- | :---: |
 | V | V | F | F |
-| F | F | F | F |
+| V | F | F | F |
 | F | V | F | F |
 | V | V | V | V |
 
