@@ -17,11 +17,11 @@ static void excc_01()
 // 2
 static void excc_02()
 {
-    float nota1 = 5.0f;
-    float nota2 = 7.0f;
-    float nota3 = 8.0f;
+    double nota1 = 5.0;
+    double nota2 = 7.0;
+    double nota3 = 8.0;
 
-    float media = ((nota1 * 2) + (nota2 * 3) + (nota3 * 5)) / 10;
+    double media = ((nota1 * 2.0) + (nota2 * 3.0) + (nota3 * 5.0)) / 10.0;
 
     Console.WriteLine($"Média = {media}");
 }
@@ -31,10 +31,10 @@ static void excc_02()
 // 3
 static void excc_03()
 {
-    double time_s = 3920;
+    double time_s = 3920.0;
 
-    double time_m = time_s / 60;
-    double time_h = time_s / 3600;
+    double time_m = time_s / 60.0;
+    double time_h = time_s / 3600.0;
 
     Console.WriteLine($"{time_h} horas equivale a {time_m} minutos que equivale a {time_s} segundos.");
 }
@@ -44,10 +44,10 @@ static void excc_03()
 // 4
 static void excc_04()
 {
-    float base_t = 25f;
-    float height_t = 45f;
+    double base_t = 25.0;
+    double height_t = 45.0;
 
-    float area = base_t * height_t / 2;
+    double area = base_t * height_t / 2.0;
 
     Console.WriteLine($"A área de um triângulo equilátero de base {base_t} e altura {height_t} equivale a {area}");
 }
@@ -61,7 +61,7 @@ static void excc_05()
     int B = 2;
     int C = 9;
 
-    double equation = Math.Pow((A + B), 2) + C;
+    double equation = Math.Pow((A + B), 2.0) + C;
 
     Console.WriteLine($"Resultado: {equation}");
 }
@@ -88,9 +88,9 @@ static void excc_07()
     int null_v = 10000;
     int valid_v = 25000;
 
-    float white_v_pcent = 100 / (voters / white_v);
-    float null_v_pcent = 100 / (voters / null_v);
-    float valid_v_pcent = 100 / (voters / valid_v);
+    double white_v_pcent = 100.0 / (voters / white_v);
+    double null_v_pcent = 100.0 / (voters / null_v);
+    double valid_v_pcent = 100.0 / (voters / valid_v);
 
     Console.WriteLine($"Votos Totais: {voters}\nVotos Brancos: {white_v} ({white_v_pcent}%)\nVotos Nulos: {null_v} ({null_v_pcent}%)\nVotos Válidos: {valid_v} ({valid_v_pcent}%)");
 }
@@ -100,12 +100,12 @@ static void excc_07()
 // 8
 static void excc_08()
 {
-    float price_factory = 75000f;
+    double price_factory = 75000.0;
 
-    float pcent_distributor = (price_factory * 30) / 100;
-    float taxes = (price_factory * 45) / 100;
+    double pcent_distributor = (price_factory * 30.0) / 100.0;
+    double taxes = (price_factory * 45.0) / 100.0;
 
-    float final_price = price_factory + pcent_distributor + taxes;
+    double final_price = price_factory + pcent_distributor + taxes;
 
     Console.WriteLine($"Preço final: R${final_price}");
 }
