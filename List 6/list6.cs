@@ -154,6 +154,7 @@ static void excc_06()
 // 7
 static void excc_07()
 {
+#pragma warning disable CS8604
     var numbers = new List<int> { };
 
     for (int i = 0; i < 10; i++)
@@ -164,6 +165,7 @@ static void excc_07()
     numbers.Sort();
 
     Console.WriteLine(String.Join(' ', numbers));
+#pragma warning restore CS8604
 }
 
 //excc_07();
