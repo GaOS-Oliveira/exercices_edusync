@@ -211,8 +211,7 @@ static string excc_09(int num)
 // 10
 static void excc_10(int num)
 {
-    var lenght_num = num.ToString().Length;
-    Console.WriteLine(lenght_num);
+    Console.WriteLine(num.ToString().Lengt);
 }
 
 //excc_10(1234567);
