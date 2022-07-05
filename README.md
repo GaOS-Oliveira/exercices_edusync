@@ -1,4 +1,5 @@
 # Exercícios do Curso de .NET da EduSync
+(.NET 6)
 
 **Lista 1** — Variáveis (em C#)  
 **Lista 2** — Fluxogramas (draw.io)  
